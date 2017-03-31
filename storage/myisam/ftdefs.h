@@ -27,6 +27,7 @@
 #define true_word_char(ctype, character) \
                       ((ctype) & (_MY_U | _MY_L | _MY_NMR) || \
                        (character) == '_' || \
+                       (character) == '\'' || \
                        (character) == '&')
 #define misc_word_char(X)	0
 
