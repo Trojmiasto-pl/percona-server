@@ -1,3 +1,0 @@
-[submodule "storage/rocksdb/rocksdb"]
-	path = storage/rocksdb/rocksdb
-	url = https://github.com/facebook/rocksdb.git
